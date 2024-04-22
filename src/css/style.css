@@ -1,0 +1,16 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --main-bg: #151515;
+    --main-light-bg: #212121;
+    --golden-orange: #FF934E;
+    --golden: #ffc107;
+    --quote-gray:#7a7a7a;
+    --card-gray: #212121;
+}
+
+.body-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

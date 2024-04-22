@@ -1,0 +1,222 @@
+/* Header */
+
+@media (max-width: 900px){
+
+}
+
+@media (max-width: 991px){
+
+    header{
+        .body-container{
+            .header{
+                nav{
+                    display: none
+                }
+                >i{
+                    display: block;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+
+}
+
+/* Header */
+
+/* Homepage */
+
+@media (max-width: 425px){
+}
+@media (max-width: 1023px) {
+
+    .testimonial{
+        .body-container{
+            >div{
+                >div:nth-child(2){
+                    grid-template-columns: 1fr 1fr !important;
+                }
+            }
+        }
+    }
+
+}
+@media (max-width: 991px){
+
+    .hero{
+        section{
+            .body-container{
+                .main-hero-content{
+                    padding-top: 80px !important;
+                    >div:nth-child(1){
+                    padding-top: 50px !important;
+                    h4{
+                            font-size: 16px !important;
+                            line-height: 24px !important;
+                        }
+                        h1{
+                            font-size: 50px !important;
+                            line-height: 50px !important;
+                        }
+                        p{
+                            font-size: 12px !important ;
+                        }
+                    }
+                    >div:nth-child(2){
+                        padding-top: 100px !important;
+                        grid-template-columns: 1fr 1fr !important;
+                    }
+                }
+            }
+        }
+    }
+    section{
+        .have-idea{
+            .body-container{
+                >div{
+                    >div:nth-child(1){
+                        flex-direction: column !important;
+                        >div{
+                            width: 100% !important;
+                        }
+                        p{
+                            width: 100% !important;
+                        }
+                    }
+                    >div:nth-child(2){
+                        width: 100% !important;
+                        flex-direction: column !important;
+                        img{
+                            width: 100% !important;
+                        }
+                        >div{
+                            width: 100% !important;
+                            >div{
+                                flex-direction: column !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio{
+            .body-container{
+                >div{
+                    >div:nth-child(3){
+                        flex-direction: column !important;
+                        >p{
+                            width: 100% !important;
+                        }
+                        >div{
+                            width: 100% !important;
+                            >div{
+                                flex-direction: column !important;
+                                button{
+                                    width: 100% !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .service{
+            .body-container{
+                >div{
+                    >div:nth-child(2){
+                        grid-template-columns: 1fr 1fr !important;
+                    }
+                }
+            }
+        }
+        .story{
+            .body-container{
+                >div{
+                    flex-direction: column !important;
+                    >div{
+                        width: 100% !important;
+                    }
+                    img{
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+        .contact{
+            .body-container{
+                >div{
+                    flex-direction: column-reverse !important;
+                    >div:nth-child(1){
+                        width: 100% !important;
+                        >div{
+                            grid-template-columns: 1fr !important;        
+                        }
+                    }
+                    >div:nth-child(2){
+                        width: 100% !important;
+                        >div{
+                            grid-template-columns: 1fr !important;
+                        }
+                    }
+                }
+            }
+        }
+        .blog{
+            .body-container{
+                >div{
+                    >div:nth-child(1){
+                        flex-direction: column !important;
+                        >div{
+                            width: 100% !important;
+                        }
+                        p{
+                            width: 100% !important
+                        }
+                    }
+                    >div:nth-child(2){
+                        grid-template-columns: 1fr !important;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Homepage */
+
+/* Aboute */
+
+@media (max-width: 425px){
+}
+@media (max-width: 950px){
+
+}
+
+/* Aboute */
+
+/* Contact */
+
+@media (max-width: 425px){
+}
+@media (max-width: 950px) {
+
+}
+
+/* Contact */
+
+/* Footer */
+
+@media (max-width: 425px){
+}
+@media (max-width: 991px){
+    footer{
+        .footer-bottom{
+            .body-container{
+                >div{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+/* Footer */
